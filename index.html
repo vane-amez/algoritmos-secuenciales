@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmos secuenciales</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Actividad algoritmos secuenciales.</h1>
+        <p class="textcenter"><strong>Introducción a la algoritmia y pensamiento computacional:</strong><br><br>
+            Cuatro algoritmos secuenciales en PSeInt con su diagrama de flujo generado y probados con al menos
+            dos entradas.</p>
+    </header>
+
+    <main class="contenedor-ejercicios">
+
+        <section class="ejercicio">
+            <h2>Área triangulo.</h2>
+            <p>Se desarrolla la secuencia lógica del algoritmo para calcular el área de un triángulo, mediante el
+                ingreso de
+                la base y la altura, aplicando la fórmula matemática correspondiente para obtener el resultado.</p>
+            <p><strong>Algoritmo area_triangulo </strong><br>
+                Definir base, altura, area Como Real <br>
+                Escribir 'Ingrese la base del triangulo: ' <br>
+                Leer base
+                Escribir 'Ingrese la altura del triangulo: ' <br>
+                Leer altura <br>
+                area <- (base*altura)/2 <br>
+                    Escribir 'El area del triangulo es: ', area <br>
+                    <strong>FinAlgoritmo</strong>
+            </p>
+
+            <h3>Diagrama de flujo: </h3>
+            <p>Se genera el diagrama de flujo del algoritmo en PSeInt, como representación gráfica de la secuencia
+                lógica
+                del código, sus procesos, decisiones, entradas y salidas.</p>
+            <div class="diagrama">
+                <img src="./diagramas/area_triangulo.svg" alt="">
+            </div>
+
+            <h3>Pruebas:</h3>
+            <p>Se realizan dos (2) pruebas de ejecución del código desarrollado en PSeInt, con el fin de verificar su
+                funcionamiento y validar que los resultados obtenidos correspondan con los datos ingresados y las
+                condiciones establecidas.</p>
+
+            <div class="container">
+                <div class="contenedor-pruebas">
+                    <div class="card">
+                        <img src="./img/area_triangulo1.PNG" alt="">
+                        <p>Prueba # 1.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/area_triangulo2.PNG" alt="">
+                        <p>Prueba # 2.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ejercicio">
+            <h2>Promedio notas.</h2>
+            <p>Se desarrolla la secuencia lógica del algoritmo para calcular el promedio de notas, mediante el ingreso
+                de las calificaciones obtenidas y la aplicación de la fórmula matemática correspondiente para determinar
+                el resultado final.</p>
+            <p><strong>Algoritmo promedio_notas</strong><br>
+                Definir nota1, nota2, nota3, promedio Como Real
+                Escribir 'Ingrese la primera nota: '<br>
+                Leer nota1<br>
+                Escribir 'Ingrese la segunda nota: '<br>
+                Leer nota2<br>
+                Escribir 'Ingrese la tercera nota: '<br>
+                Leer nota3<br>
+                promedio <- (nota1+nota2+nota3)/3<br>
+                    Escribir 'El promedio final es: ', promedio<br>
+                    <strong>FinAlgoritmo</strong>
+            </p>
+
+            <h3>Diagrama de flujo: </h3>
+            <p>Se genera el diagrama de flujo del algoritmo en PSeInt, como representación gráfica de la secuencia
+                lógica
+                del código, sus procesos, decisiones, entradas y salidas.</p>
+            <div class="diagrama">
+                <img src="./diagramas/promedio_notas.svg" alt="">
+            </div>
+
+            <h3>Pruebas:</h3>
+            <p>Se realizan dos (2) pruebas de ejecución del código desarrollado en PSeInt, con el fin de verificar su
+                funcionamiento y validar que los resultados obtenidos correspondan con los datos ingresados y las
+                condiciones establecidas.</p>
+
+            <div class="container">
+                <div class="contenedor-pruebas">
+                    <div class="card">
+                        <img src="./img/promedio_notas1.PNG" alt="">
+                        <p>Prueba # 1.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/promedio_notas2.PNG" alt="">
+                        <p>Prueba # 2.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ejercicio">
+            <h2>Sueldo final.</h2>
+            <p>Se desarrolla la secuencia lógica del algoritmo para calcular el sueldo final, mediante el ingreso del
+                sueldo inicial y los descuentos correspondientes, aplicando la operación matemática de resta para
+                obtener el valor neto a recibir.</p>
+            <p><strong>Algoritmo sueldo_final</strong><br>
+                Definir sueldoi, descuento, sueldof Como Real <br>
+                Escribir 'Ingrese el sueldo inicial: '<br>
+                Leer sueldoi <br>
+                descuento <- sueldoi*0.12 <br>
+                    sueldof <- sueldoi-descuento <br>
+                        Escribir 'El valor del descuento (12%) es: ' , descuento <br>
+                        Escribir 'El sueldo neto a pagar es: ' , sueldof <br>
+                        <strong>FinAlgoritmo</strong>
+            </p>
+
+            <h3>Diagrama de flujo: </h3>
+            <p>Se genera el diagrama de flujo del algoritmo en PSeInt, como representación gráfica de la secuencia
+                lógica
+                del código, sus procesos, decisiones, entradas y salidas.</p>
+            <div class="diagrama">
+                <img src="./diagramas/sueldo_final.svg" alt="">
+            </div>
+
+            <h3>Pruebas:</h3>
+            <p>Se realizan dos (2) pruebas de ejecución del código desarrollado en PSeInt, con el fin de verificar su
+                funcionamiento y validar que los resultados obtenidos correspondan con los datos ingresados y las
+                condiciones establecidas.</p>
+
+            <div class="container">
+                <div class="contenedor-pruebas">
+                    <div class="card">
+                        <img src="./img/sueldo_final1.PNG" alt="">
+                        <p>Prueba # 1.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/sueldo_final2.PNG" alt="">
+                        <p>Prueba # 2.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ejercicio">
+            <h2>Sumar dos números.</h2>
+            <p>Se desarrolla la secuencia lógica del algoritmo para sumar dos números, mediante el ingreso de los dos
+                valores numéricos y la aplicación de la operación matemática de adición para obtener el resultado final.
+            </p>
+            <p><strong>Algoritmo sumar_dos_numeros</strong><br>
+                Definir num1, num2, suma Como Entero
+                Escribir 'Ingrese el primer numero: '<br>
+                Leer num1<br>
+                Escribir 'Ingrese el segundo numero: '<br>
+                Leer num2<br>
+                suma <- num1+num2<br>
+                    Escribir 'La suma total es: ', suma<br>
+                    <strong>FinAlgoritmo</strong>
+            </p>
+
+            <h3>Diagrama de flujo: </h3>
+            <p>Se genera el diagrama de flujo del algoritmo en PSeInt, como representación gráfica de la secuencia
+                lógica
+                del código, sus procesos, decisiones, entradas y salidas.</p>
+            <div class="diagrama">
+                <img src="./diagramas/sumar_dos_numeros.svg" alt="">
+            </div>
+
+            <h3>Pruebas:</h3>
+            <p>Se realizan dos (2) pruebas de ejecución del código desarrollado en PSeInt, con el fin de verificar su
+                funcionamiento y validar que los resultados obtenidos correspondan con los datos ingresados y las
+                condiciones establecidas.</p>
+
+            <div class="container">
+                <div class="contenedor-pruebas">
+                    <div class="card">
+                        <img src="./img/sumar_dos_numeros1.PNG" alt="">
+                        <p>Prueba # 1.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/sumar_dos_numeros2.PNG" alt="">
+                        <p>Prueba # 2.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="textcenter">Algorimia | Actividad algoritmos secuenciales</p>
+    </footer>
+</body>
+
+</html>
